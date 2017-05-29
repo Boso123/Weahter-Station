@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2017 by original authors @ fontello.com</metadata>
+<defs>
+<font id="power_boton" horiz-adv-x="1000" >
+<font-face font-family="power_boton" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="power" unicode="&#xe800;" d="M339 75q95 0 164 69t70 166q0 97-69 166-15 15-15 36t15 36 37 15 37-15q100-100 100-238 0-140-100-240-99-99-239-99-141 0-240 99t-99 240q0 140 99 238 15 15 37 15t37-15 15-36-15-36q-69-69-69-166 0-97 69-166t166-69z m0 291q-21 0-37 15t-16 36l0 261q0 22 16 37t37 15 36-15 15-37l0-261q0-21-15-36t-36-15z" horiz-adv-x="678" />
+
+<glyph glyph-name="lightbulb" unicode="&#xe801;" d="M390 663q64 0 109-45t46-110q0-11-7-18t-19-8-19 8-7 18q0 43-30 73t-73 30q-25 0-25 26t25 26z m0-860q-21 0-36 16t-15 37l-104 0q-21 0-37 15t-15 37l0 157q0 31-23 76t-90 142q-70 97-70 224 0 161 114 276t276 114 276-114 115-276q0-121-71-224-67-96-89-140t-22-78l0-157q0-21-15-37t-36-15l-105 0q0-22-16-37t-37-16z m105 156l0 53-209 0 0-53 209 0z m130 383q53 76 53 165 0 118-85 202t-203 84q-117 0-202-84t-84-202q0-87 52-164 107-155 124-227l59 0 0 105q0 21 15 36t36 15 37-15 16-36l0-105 57 0q16 71 125 226z" horiz-adv-x="781" />
+</font>
+</defs>
+</svg>

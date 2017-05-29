@@ -1,0 +1,51 @@
+/*Colores
+    *Azul: #BED4E6
+    *Verde: #88A02E
+*/
+
+header figure{
+    width: 100%;
+    height: 27.4pc;
+    display: flex;
+    justify-content: center;
+    transition-duration: 0.8s;
+}
+
+header figure img{
+    height: 117%;
+    -webkit-filter: drop-shadow(1px 1px 8px rgba(0,0,0,0.9));
+    -o-filter: drop-shadow(1px 1px 8px rgba(0,0,0,0.9));
+    filter: drop-shadow(1px 1px 8px rgba(0,0,0,0.9));
+}
+
+.botones{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botones button{
+    background: #BFD9E9;
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+}
+
+.botones button h5{
+    width: 100%;
+    font-size: 17px;
+    margin-top: -15px;
+    padding: 5px;
+}
+
+.botones button img{
+    border-radius: 100px;
+}
+
+.botones h3{
+    font-size: 30px;
+    margin: 0 50px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+    color: #BED4E6;
+}

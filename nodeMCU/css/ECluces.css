@@ -1,0 +1,236 @@
+header{
+    width: 100%;
+    height: 100px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(57,174,206,1);
+    color: white;
+}
+
+.LogoMain{
+    width: 15%;
+    margin: 0 25px 0 25px;
+    z-index: 10;
+}
+
+.LogoMain figure{
+    width: 100%;
+    height: 100%;
+}
+
+.LogoMain figure img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.LogoMain figure img:hover{
+    -webkit-filter: drop-shadow(1px 1px 8px rgba(0,0,0,0.9));
+    -o-filter: drop-shadow(1px 1px 8px rgba(0,0,0,0.9));
+    filter: drop-shadow(1px 1px 8px rgba(0,0,0,0.9));
+}
+
+.Clima{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    width: 27%;
+    height: 50%;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+.Clima:hover{
+    color: #BDE235;
+}
+
+.Clima:hover, .Clima figure img{
+   -webkit-filter: drop-shadow(1px 1px 8px rgba(0,0,0,0.9));
+   -o-filter: drop-shadow(1px 1px 8px rgba(0,0,0,0.9));
+   filter: drop-shadow(1px 1px 8px rgba(0,0,0,0.9));
+}
+
+.Clima h3{
+    font-size: 30px;
+    line-height: 70px;
+}
+
+.Clima figure{
+    height: 130%;
+}
+
+.Clima figure img{
+    width: 5+200%;
+    height: 100%;
+}
+
+.Luces{
+    width: 27%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    cursor: default;
+}
+
+.Luces:hover{
+    color: #BDE235;
+}
+
+/*.Luces:hover, .Luces figure img{
+    -webkit-filter: drop-shadow(1px 1px 8px rgba(0,0,0,0.9));
+    -o-filter: drop-shadow(1px 1px 8px rgba(0,0,0,0.9));
+    filter: drop-shadow(1px 1px 8px rgba(0,0,0,0.9));
+}*/
+
+.Luces h3{
+    font-size: 30px;
+    color: #BDE235;
+    -webkit-filter: drop-shadow(1px 1px 10px rgba(0,0,0,1));
+    -o-filter: drop-shadow(1px 1px 10px rgba(0,0,0,1));
+    filter: drop-shadow(1px 1px 10px rgba(0,0,0,1));
+}
+
+.Luces figure{
+    width: 50px;
+    height: 100%;
+    -webkit-filter: drop-shadow(1px 1px 10px rgba(0,0,0,1));
+    -o-filter: drop-shadow(1px 1px 10px rgba(0,0,0,1));
+    filter: drop-shadow(1px 1px 10px rgba(0,0,0,1));
+}
+
+.Luces figure img{
+    width: 100%;
+}
+
+/***********************************************Contenido*********************/
+
+.contenido{
+    width: 100%;
+    height: auto;
+    min-height: 27.6pc;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 35px;
+    transition-duration: 0.6s;
+}
+
+.luz{
+    width: 9%;
+    min-height: 110px;
+    max-height: 170px;
+    margin: 0 40px 40px 0;
+    border-radius: 10px;
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.etiquetaN{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 20%;
+    border-radius: 10px 10px 0 0;
+    border-bottom: solid 1px black;
+}
+
+.etiquetaN h5{
+    width: 100%;
+    padding: 5px;
+    height: 100%;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    background-color: #BED4E6;
+}
+
+.boton{
+    width: 100%;
+    height: 100%;
+    background-color: #BED4E6;
+    border-radius: 0px 0 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.boton input{
+    display: none;
+    visibility: hidden;
+}
+
+.boton label{
+    width: 75px;
+    height: 75px%;
+    border-radius: 100%;
+    font-size: 60px;
+    line-height: 80px;
+    background-color: white;
+    color: rgb(0,0, 0);
+    box-shadow: 0 5px 3px rgba(0,0,0,0.6);
+    cursor: pointer;
+    font-size: 400%;
+    
+    transition-duration: 0.5s;
+}
+
+.boton input:checked + .icon-lightbulb{
+    color: #FAF723;
+    text-shadow: 2px 2px 20px rgba(240,236,14,0.7);
+    box-shadow: inset 2px 10px 20px rgba(0,0,0,0.6),
+        inset 1px 7px 10px rgba(0,0,0,0.6);
+}
+
+#frame{
+    display: none;
+    visibility: hidden;
+}
+
+@media screen and (min-width: 280px){
+    .LogoMain{
+        margin:  0 15px 0 15px;   
+    }
+    
+    .Clima h3{
+        font-size: 20px;
+        line-height: 20px;
+    }
+    
+    .Luces{
+        width: 35%;
+    }
+    
+    .Luces h3{
+        line-height: 20px;
+        font-size: 20px;
+    }
+    
+    .luz{
+        width: 20%;
+    }
+    
+    .boton label{
+        font-size: 350%;
+    }
+}
+
+@media screen and (min-width: 950px){
+    .LogoMain{
+        margin: 0 25px 0 25px;
+    }
+    
+    .luz{
+        width: 10%;
+    }
+    
+    .Luces{
+        width: 27%;
+    }
+}

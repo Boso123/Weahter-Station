@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Menu nodeMCU</title>
+    
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    
+    <link href="https://file.myfontastic.com/Ri7PZxaHzGcfjUBgBZ2Twm/icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalizador.css">
+    <link rel="stylesheet" href="css/Eindex.css">
+</head>
+<body>
+   <header>
+      <figure><img src="imagenes/Logo.png" alt="Logo"></figure>
+       <div class="botones">
+           <button class="MClimatica">
+               <img src="imagenes/icons/icon-nube.png" alt="climas">
+                <br>
+                <h5>Medición climatica</h5>          
+           </button>
+           
+           <h3>Elije una opción</h3>
+           
+           <button class="Cluces">
+               <img src="imagenes/icons/icon-bombillo.png" alt="Luces">
+               <br>
+               <h5>Control de luces</h5>
+           </button>
+       </div>
+   </header>
+   <footer>
+       Luis Javier <br> Luis Giraldo <br>Willinton Muñoz <br>Mateo Montes Loaiza<br> Universidad EAFIT <br> 2017&copy;
+   </footer>
+   
+    <script>
+        $('.Cluces').click(function(){
+            window.location.href = "controlLuces.php";
+        });
+        
+        $('.MClimatica').click(function(){
+            window.location.href = "medicionClimatica.php";
+        });
+    </script>
+</body>
+</html>
